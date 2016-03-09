@@ -4,7 +4,7 @@
 
 ### Example 1:
 ```bash
-wget "http://tommaso-soru.it/coreaas/ranking/?abbrev=ICSE" -O ICSE.json
+wget "http://tommaso-soru.it/coreaas/ranking?abbrev=ICSE" -O ICSE.json
 ```
 will yield
 ```json
@@ -20,7 +20,7 @@ will yield
 
 ### Example 2:
 ```bash
-wget "http://tommaso-soru.it/coreaas/ranking/?abbrev=ISWC" -O ISWC.json
+wget "http://tommaso-soru.it/coreaas/ranking?abbrev=ISWC" -O ISWC.json
 ```
 will yield
 ```json
